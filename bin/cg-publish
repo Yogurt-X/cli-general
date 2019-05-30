@@ -1,0 +1,4 @@
+#!/usr/bin/env node
+
+const checkPublish = require('../lib/checkPublish.js');
+checkPublish.checkPublishEnv();
