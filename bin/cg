@@ -2,5 +2,6 @@
 
 require('commander')
 .version(require('../package.json').version) // ck --v / ck -V 时会输出package.json中的版本号
-.command('publish <organization>', 'check config for publish project')
+.command('publish [organization] [env]', 'check config for publish project')
+.command('host [organization] [env]', 'check config for publish project')
 .parse(process.argv);

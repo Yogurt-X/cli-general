@@ -1,0 +1,3 @@
+#!/usr/bin/env node
+
+const hostcenter = require('../lib/hostcenter/hostcenter.js');
